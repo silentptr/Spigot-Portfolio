@@ -1,0 +1,23 @@
+main: com.minersland.plugin.MinersLandPlugin
+name: MinersLandPlugin
+version: 1.0.0
+description: The main plugin for Miner's Land.
+api-version: 1.18
+author: silent_ptr
+website: www.minersland.com
+prefix: Miner's Land
+libraries:
+  - com.zaxxer:HikariCP:5.0.0
+  - org.slf4j:slf4j-nop:2.0.0-alpha1
+
+commands:
+  playerinfo:
+    description: Displays information about a player.
+  balance:
+    description: Displays a player's balance.
+    aliases: [bal]
+  landclaim:
+    description: Sub commands for managing land claims.
+  inventorysee:
+    description: Opens another player's inventory.
+    aliases: [invsee]
